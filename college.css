@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.header #logo1{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top:0 ;
+    background: linear-gradient(to top,rgba(52, 247, 140),rgba(76, 231, 210));
+}
+.header #logo1{
+    text-transform: uppercase;
+    color: red;
+    font-size: 35px;
+    font-weight: 600;
+    transition: .7s;
+}
+#logo{
+    color: blue;
+font-size: 42px;
+}
+.header #logo1:hover{
+    color: rgb(254, 68, 201);
+    letter-spacing: 4px;
+    text-shadow: 3px 1px 1px rgb(250, 124, 6);
+    font-size: 40px;
+}
+.body{
+   background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(./images/image.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.body h3{
+    position: absolute;
+    top:35%;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background:linear-gradient(to right,#ff0062,#4400ff,#ff0000,#99ff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.body h4{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    padding: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+}
+#change{
+    color: #ff0000;
+    animation: chan .7s linear infinite;
+    /* border: 1px solid white; */
+    overflow: hidden;
+}
+@keyframes chan {
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top: 20%;
+    }
+    100%{
+        margin-top: 20%;
+    }
+    
+}
+.heading h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: #ff0000;
+}
+.heading h1::first-letter{
+    font-size: 40px;
+    color: rgb(0,0,0);
+}
+
+.dept{
+    font-size: 15px;
+    background:linear-gradient(to right,#4400ff,#ff0062,#ff0000,#62ff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+   
